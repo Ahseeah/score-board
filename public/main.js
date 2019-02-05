@@ -28,7 +28,7 @@ const add1ToTeam2Score = () => {
   console.log('adding 1 to team 2 score')
   team2Score = team2Score + 1
   console.log('the new score is' + team2Score)
-  document.querySelector('.team2score').textContent = team2Score
+  document.querySelector('.team2Score').textContent = team2Score
   console.log('updated the team 2 score')
 }
 
@@ -59,7 +59,7 @@ document
 let Team2Name = 'SecondTeam'
 const updateTeam2Name = () => {
   let name = document.querySelector('.input2').value
-  document.querySelector('.teamName').textContent = name
+  document.querySelector('.teamName2').textContent = name
 }
 
 document
